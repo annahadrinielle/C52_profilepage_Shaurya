@@ -1,0 +1,30 @@
+h1 {
+    color: brown;
+    background-color: mistyrose;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #00d4fa;
+}
+.game {
+    border-style: double;
+    position: relative;
+}
+.game p{
+    opacity: 1;
+}
+.game:hover {
+    border-style: ridge;
+}
+.game:hover img{
+    opacity: 0.3;
+}
+
+.game:hover p{
+    position: absolute;
+    top: 10%;
+    left:50%;
+    transform: translate(-50%, 0%)
+}
